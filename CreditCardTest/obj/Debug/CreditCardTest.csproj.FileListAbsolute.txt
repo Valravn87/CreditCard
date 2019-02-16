@@ -1,0 +1,17 @@
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\obj\Debug\CreditCardTest.csprojAssemblyReference.cache
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\obj\Debug\CreditCardTest.csproj.CoreCompileInputs.cache
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\CreditCardTest.dll
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\CreditCardTest.pdb
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\CreditCard.exe
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\CreditCard.pdb
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\CreditCard.exe.config
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\obj\Debug\CreditCardTest.csproj.CopyComplete
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\obj\Debug\CreditCardTest.dll
+C:\Users\Conrad\Documents\Visual Studio 2017\Projects\CreditCard\CreditCardTest\obj\Debug\CreditCardTest.pdb
