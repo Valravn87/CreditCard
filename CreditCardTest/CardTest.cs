@@ -11,7 +11,7 @@ namespace CreditCardTest
 		public void Test_Interest_VisaCard()
 		{
 			// Arrange
-			Card card = new Card(CardTypes.Visa, 100);
+			Card card = new VisaCard(100);
 			double expected = 10;
 
 			// Act
@@ -25,7 +25,7 @@ namespace CreditCardTest
 		public void Test_Interest_MC()
 		{
 			// Arrange
-			Card card = new Card(CardTypes.MC, 100);
+			Card card = new MC_Card(100);
 			double expected = 5;
 
 			// Act
@@ -39,7 +39,7 @@ namespace CreditCardTest
 		public void Test_Interest_Discover()
 		{
 			// Arrange
-			Card card = new Card(CardTypes.Discover, 100);
+			Card card = new DiscoverCard(100);
 			double expected = 1;
 
 			// Act

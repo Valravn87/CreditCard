@@ -9,14 +9,14 @@ namespace CreditCardTest
 	{
 		//1 person has 1 wallet and 3 cards(1 Visa, 1 MC 1 Discover) – Each Card has a balance of $100 – 
 		//calculate the total interest(simple interest) for this person and per card.
-	  [TestMethod]
+		[TestMethod]
 		public void TestCase1()
 		{
 			// Arrange
 			Person person1 = new Person(new Wallet(
-				new HundredDollarCard(CardTypes.Visa),
-				new HundredDollarCard(CardTypes.MC),
-				new HundredDollarCard(CardTypes.Discover)));
+				new TestVisaCard(),
+				new TestMC_Card(),
+				new TestDiscoverCard()));
 
 			var expectedCard1 = 10.0;
 			var expectedCard2 = 5.0;
@@ -42,11 +42,11 @@ namespace CreditCardTest
 		public void TestCase2()
 		{
 			// Arrange
-			Person person1 = new Person(new Wallet(	// Wallet 1
-				new HundredDollarCard(CardTypes.Visa),
-				new HundredDollarCard(CardTypes.Discover)), 
-				new Wallet(	// Wallet 2
-					new HundredDollarCard(CardTypes.MC)));
+			Person person1 = new Person(new Wallet( // Wallet 1
+				new TestVisaCard(),
+				new TestDiscoverCard()),
+				new Wallet( // Wallet 2
+					new TestMC_Card()));
 
 			var expectedWallet1 = 11.0;
 			var expectedWallet2 = 5.0;
@@ -70,11 +70,11 @@ namespace CreditCardTest
 		{
 			// Arrange
 			Person person1 = new Person(new Wallet(
-				new HundredDollarCard(CardTypes.MC),
-				new HundredDollarCard(CardTypes.Visa)));
+				new TestMC_Card(),
+				new TestVisaCard()));
 			Person person2 = new Person(new Wallet(
-				new HundredDollarCard(CardTypes.Visa),
-				new HundredDollarCard(CardTypes.MC)));
+				new TestVisaCard(),
+				new TestMC_Card()));
 
 			var expectedPerson1 = 15.0;
 			var expectedPerson1Wallet = 15.0;
