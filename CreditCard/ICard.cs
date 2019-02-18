@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace CreditCard
 {
-	public enum CardTypes { Visa, MC, Discover }
-
 	public interface ICard
 	{
-		CardTypes Type { get; set; }
 		double InterestRate { get; }
 		double Balance { get; set; }
 		double Interest { get; }
